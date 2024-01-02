@@ -1,6 +1,6 @@
 import { categoriesEnum } from "@/enum/destinations.enum";
 import mongoose from "mongoose";
-
+// this is the old version please refer to new one 
 const destinationSchema = new mongoose.Schema({
   placeId: {
     type: String,
